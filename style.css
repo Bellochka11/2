@@ -25,7 +25,14 @@ a, h1,p,button{
     padding: 40px 0;
     margin-bottom: 84px;
 }
+.head{
+    display: flex;
+    justify-content: space-between;
+    gap: 460px;
+}
 .head_naviration{
+    display: flex;
+    gap: 14px;
 
 }
 .head_a1{
@@ -41,9 +48,16 @@ a, h1,p,button{
     margin-bottom: 100px;
 }
 .main_content{
+    display: flex;
+    justify-content: space-between;
+    
 
 }
+.main_content__left_side{
+    max-width:556px;;
+}
 .main_content__left_side h1{
+    max-width: 556px;
     color: rgb(0, 0, 0);
     font-size: 60px;
     font-weight: 700;
@@ -53,6 +67,7 @@ a, h1,p,button{
 
 }
 .main_content__left_side p{
+    max-width: 556px;;
     color: rgb(136, 136, 136);
     font-size: 20px;
     font-weight: 400;
@@ -62,6 +77,8 @@ a, h1,p,button{
     margin-bottom: 32px;
 }
 .main_content__left_side_button{
+    display: flex;
+    gap: 48px;
 
 }
 .main_content__left_side_button button{
@@ -76,6 +93,8 @@ a, h1,p,button{
     cursor: pointer;
 }
 .main_content__left_side_button .button_1{
+    text-align: center;
+    width:140px;
     color: rgb(255, 255, 255);
     border-radius: 56px;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
@@ -89,5 +108,8 @@ a, h1,p,button{
   padding: 100px 0;
 }
 .footer_navigatoin{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
 
 }
